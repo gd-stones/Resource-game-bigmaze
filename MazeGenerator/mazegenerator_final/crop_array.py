@@ -6,6 +6,7 @@ def remove_border(matrix):
     
     # Xóa cột đầu và cột cuối
     matrix = [row[1:-1] for row in matrix]
+    print(1)
     
     return matrix
 
